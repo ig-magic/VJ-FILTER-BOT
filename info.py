@@ -112,7 +112,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', False))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'upshrink.com')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'c2a118fca4bc5b859e08f6bc52667a860316fbcb')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', '')
@@ -125,7 +125,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)) # Set True Or False
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'upshrink.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'c2a118fca4bc5b859e08f6bc52667a860316fbcb')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/moviesrqu/107') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
@@ -196,6 +196,7 @@ else:
 # Don't Remove Credit @VJ_Bots
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
 
 
